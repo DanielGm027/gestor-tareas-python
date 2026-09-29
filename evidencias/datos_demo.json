@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Repasar el patrón Singleton",
+    "completada": true
+  },
+  {
+    "id": 2,
+    "descripcion": "Preparar la entrega de la actividad",
+    "completada": false
+  }
+]

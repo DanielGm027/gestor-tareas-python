@@ -1,0 +1,32 @@
+test_configuracion_compartida_sin_reinicio (test_aplicacion.PruebasConfiguracion.test_configuracion_compartida_sin_reinicio) ... ok
+test_instancia_unica (test_aplicacion.PruebasConfiguracion.test_instancia_unica) ... ok
+test_ctrl_c_guarda_datos (test_aplicacion.PruebasConsola.test_ctrl_c_guarda_datos) ... ok
+test_debug_muestra_diagnosticos (test_aplicacion.PruebasConsola.test_debug_muestra_diagnosticos) ... ok
+test_entradas_invalidas_no_cierran_aplicacion (test_aplicacion.PruebasConsola.test_entradas_invalidas_no_cierran_aplicacion) ... ok
+test_error_guardando_se_informa_y_devuelve_error (test_aplicacion.PruebasConsola.test_error_guardando_se_informa_y_devuelve_error) ... ok
+test_fin_de_entrada_guarda_datos (test_aplicacion.PruebasConsola.test_fin_de_entrada_guarda_datos) ... ok
+test_flujo_completo_y_reinicio (test_aplicacion.PruebasConsola.test_flujo_completo_y_reinicio) ... ok
+test_json_corrupto_no_se_sobrescribe_al_iniciar (test_aplicacion.PruebasConsola.test_json_corrupto_no_se_sobrescribe_al_iniciar) ... ok
+test_archivo_inexistente_inicia_vacio (test_aplicacion.PruebasPersistencia.test_archivo_inexistente_inicia_vacio) ... ok
+test_continuar_ids_al_cargar (test_aplicacion.PruebasPersistencia.test_continuar_ids_al_cargar) ... ok
+test_crear_directorio_y_guardar_lista_vacia (test_aplicacion.PruebasPersistencia.test_crear_directorio_y_guardar_lista_vacia) ... ok
+test_fallo_de_escritura_conserva_archivo_anterior (test_aplicacion.PruebasPersistencia.test_fallo_de_escritura_conserva_archivo_anterior) ... ok
+test_guardar_y_cargar_estado_y_acentos (test_aplicacion.PruebasPersistencia.test_guardar_y_cargar_estado_y_acentos) ... ok
+test_rechazar_esquemas_invalidos (test_aplicacion.PruebasPersistencia.test_rechazar_esquemas_invalidos) ... ok
+test_rechazar_json_corrupto (test_aplicacion.PruebasPersistencia.test_rechazar_json_corrupto) ... ok
+test_agregar_tarea_pendiente (test_aplicacion.PruebasTareas.test_agregar_tarea_pendiente) ... ok
+test_completar_dos_veces_sin_duplicar (test_aplicacion.PruebasTareas.test_completar_dos_veces_sin_duplicar) ... ok
+test_completar_id_inexistente (test_aplicacion.PruebasTareas.test_completar_id_inexistente) ... ok
+test_completar_tarea_existente (test_aplicacion.PruebasTareas.test_completar_tarea_existente) ... ok
+test_ids_unicos_consecutivos (test_aplicacion.PruebasTareas.test_ids_unicos_consecutivos) ... ok
+test_listado_no_permite_borrar_datos_internos (test_aplicacion.PruebasTareas.test_listado_no_permite_borrar_datos_internos) ... ok
+test_listar_sin_tareas (test_aplicacion.PruebasTareas.test_listar_sin_tareas) ... ok
+test_quitar_espacios_exteriores (test_aplicacion.PruebasTareas.test_quitar_espacios_exteriores) ... ok
+test_rechazar_descripciones_invalidas (test_aplicacion.PruebasTareas.test_rechazar_descripciones_invalidas) ... ok
+test_rechazar_ids_invalidos (test_aplicacion.PruebasTareas.test_rechazar_ids_invalidos) ... ok
+test_tarea_no_se_modifica_desde_fuera (test_aplicacion.PruebasTareas.test_tarea_no_se_modifica_desde_fuera) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.387s
+
+OK

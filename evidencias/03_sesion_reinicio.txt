@@ -1,0 +1,20 @@
+GESTOR DE TAREAS
+Tareas cargadas: 2
+
+1. Agregar tarea
+2. Listar tareas
+3. Completar tarea
+4. Guardar y salir
+Elige una opción: 2
+
+ID | Estado     | Descripción
+-------------------------------------------------------
+ 1 | Completada | Repasar el patrón Singleton
+ 2 | Pendiente  | Preparar la entrega de la actividad
+
+1. Agregar tarea
+2. Listar tareas
+3. Completar tarea
+4. Guardar y salir
+Elige una opción: 4
+Cambios guardados. Hasta luego.
