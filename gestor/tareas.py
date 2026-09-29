@@ -1,6 +1,8 @@
 """Operaciones sobre las tareas y representación de sus datos."""
 from dataclasses import dataclass, replace
 
+from .configuracion import Configuracion
+
 
 @dataclass(frozen=True)
 class Tarea:
@@ -10,9 +12,17 @@ class Tarea:
 
 
 class GestorTareas:
-    def __init__(self):
-        self._tareas = []
-        self._siguiente_id = 1
+    def __init__(self, configuracion=None):
+        from .persistencia import cargar_tareas
+
+        self.configuracion = configuracion if configuracion is not None else Configuracion()
+        self._tareas = cargar_tareas(self.configuracion.archivo_tareas)
+        self._siguiente_id = max((t.id for t in self._tareas), default=0) + 1
+
+    def guardar(self):
+        from .persistencia import guardar_tareas
+
+        guardar_tareas(self.configuracion.archivo_tareas, self._tareas)
 
     def agregar(self, descripcion):
         if not isinstance(descripcion, str) or not descripcion.strip():
